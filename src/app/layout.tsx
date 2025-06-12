@@ -6,9 +6,9 @@ import Navbar from "@/components/Navbar/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Loopr | Your Smart Golf Caddie App",
+  title: "Loopr | Din smarta golfcaddie-app",
   description:
-    "Loopr is the next-generation golf app that helps you make smarter decisions on the course. With personalized club recommendations, GPS guidance, and weather-aware insights, it's like having a caddie in your pocket.",
+    "Loopr är nästa generations golfapp som hjälper dig fatta smartare beslut ute på banan. Med personliga klubbrekommendationer, GPS-stöd och väderanpassade förslag är det som att ha en caddie i fickan.",
 };
 
 export default function RootLayout({
