@@ -1,3 +1,5 @@
+import FeatureCard from "../FeatureCard/FeatureCard";
+
 export default function Hero() {
   return (
     <section className="bg-gradient-to-r from-white via-green-50 to-emerald-50 p-8">
@@ -13,6 +15,12 @@ export default function Hero() {
           realtidsdata om vind, höjdskillnader och personligt anpassade
           strategier
         </p>
+      </div>
+      <div>
+        <FeatureCard
+          title="Smart klubbval"
+          description="Dynamiska och algoritmbaserade klubbrekommendationer"
+        />
       </div>
     </section>
   );
