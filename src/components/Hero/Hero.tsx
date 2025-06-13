@@ -1,4 +1,4 @@
-import FeatureCard from "../FeatureCard/FeatureCard";
+import FeatureCardGrid from "../FeatureCardGrid/FeatureCardGrid";
 
 export default function Hero() {
   return (
@@ -16,11 +16,8 @@ export default function Hero() {
           strategier
         </p>
       </div>
-      <div>
-        <FeatureCard
-          title="Smart klubbval"
-          description="Dynamiska och algoritmbaserade klubbrekommendationer"
-        />
+      <div className="flex mt-8">
+        <FeatureCardGrid />
       </div>
     </section>
   );
