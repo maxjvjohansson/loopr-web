@@ -1,5 +1,6 @@
 "use client";
 
+import AppButtons from "../AppButtons/AppButtons";
 import FeatureCardGrid from "../FeatureCardGrid/FeatureCardGrid";
 import Image from "next/image";
 
@@ -24,14 +25,15 @@ export default function Hero() {
           </div>
         </div>
 
-        <div>
+        <div className="flex flex-col justify-center items-center">
           <Image
             src="/loopr_app_hole_overview.png"
             alt="App-mockup i iPhone"
-            width={400}
-            height={400}
+            width={300}
+            height={300}
             priority
           />
+          <AppButtons />
         </div>
       </div>
     </section>
