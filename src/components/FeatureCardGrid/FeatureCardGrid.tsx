@@ -7,7 +7,7 @@ const features = [
   {
     icon: <SportsGolfIcon />,
     title: "Smart klubbval",
-    description: "Dynamiska och algoritmbaserade klubbrekommendationer",
+    description: "Dynamiska och algoritmbaserade rekommendationer",
   },
   {
     icon: <AirIcon />,

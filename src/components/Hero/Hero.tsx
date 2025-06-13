@@ -28,8 +28,8 @@ export default function Hero() {
           <Image
             src="/loopr_app_hole_overview.png"
             alt="App-mockup i iPhone"
-            width={300}
-            height={300}
+            width={400}
+            height={400}
             priority
           />
         </div>
