@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Login() {
   return (
     <section className="h-screen bg-gradient-to-r from-white via-emerald-50 to-emerald-100 px-8 py-16">
@@ -38,12 +40,12 @@ export default function Login() {
               >
                 Lösenord
               </label>
-              <a
+              <Link
                 href="#"
                 className="text-sm font-semibold text-emerald-600 hover:text-emerald-500"
               >
                 Glömt lösenord?
-              </a>
+              </Link>
             </div>
 
             <div className="mt-2">
