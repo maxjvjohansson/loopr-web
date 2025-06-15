@@ -7,7 +7,8 @@ export default function Footer() {
         <div className="space-y-4">
           <h3 className="flex items-center gap-2 text-xl font-bold">Loopr</h3>
           <p className="text-sm text-neutral-600">
-            Framtidens golf finns här. Spela smartare med .
+            Framtidens golf finns här. Spela smartare med klubbval baserat på
+            dig och dina förutsättningar.
           </p>
         </div>
 
